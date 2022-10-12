@@ -33,9 +33,6 @@ public class CAR implements Runnable {
 
             double ost = km / sr;
 
-            //   System.out.println("—редн€€ скорость "+sr);
-
-
             System.out.println("ќсталось: " + getkm() + "м" + " —корость: " + speed + " ¬рем€: " + time + " —редн€€ скорость: " + sr + " ¬рем€ прибыти€: " + ost);
 
             try {

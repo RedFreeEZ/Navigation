@@ -7,7 +7,7 @@ public class Main {
     private int arrsp[] = new int[5];
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         CAR car = new CAR(1);
-        car.run();
+        new Thread(car).start();
 
     }
 }
